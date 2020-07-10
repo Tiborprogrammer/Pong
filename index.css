@@ -1,0 +1,25 @@
+#main-canvas {
+    background-color: black;
+    border: chartreuse;
+    border-style: dotted;
+}
+
+.controls {
+    font-size: large;
+}
+
+#ball-speed-input {
+    width: 40px;
+    font-size: large;
+}
+
+#paddle-speed-input {
+    width: 40px;
+    font-size: large;
+}
+
+#control-div {
+    float: right;
+    display: flex;
+    flex-direction: column;
+}

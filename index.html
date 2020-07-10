@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pong</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <canvas width="1250" height="700" id="main-canvas"></canvas>
+    <div id="control-div">
+        <button id="game-toggle-btn" class="controls">Pause game</button>
+        <button id="game-restart-btn" class="controls">Restart game</button>
+        <span class="controls"> <strong>Background color:</strong></span>
+        <input type="color" id="background-color">
+        <span class="controls"> <strong>Ball color:</strong></span>
+        <input type="color" value="#FF0000" id="ball-color">
+        <span class="controls"> <strong>Paddle color:</strong></span>
+        <input type="color" value="#ffffff" id="paddle-color">
+        <span class="controls"> <strong>Ball speed:</strong></span>
+        <input min="1" max="50" id="ball-speed-input" type="number" value="5">
+        <span class="controls"> <strong>Paddle speed:</strong></span>
+        <input min="1" max="50" id="paddle-speed-input" type="number" value="8">
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
